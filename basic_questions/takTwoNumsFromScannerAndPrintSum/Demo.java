@@ -1,5 +1,5 @@
 // take two numbers from scanner and print the sum 
-
+import java.util.* ;
 public class Demo {
 
         public static void main(String[] args) {
