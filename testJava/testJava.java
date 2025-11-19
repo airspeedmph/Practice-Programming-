@@ -1,4 +1,9 @@
-package testJava;
-public class testJava {
-    
+package TestJava;
+
+
+class TestJava {
+    public static void main(String[] args) {
+        System.out.println("hello ");
+        
+    }
 }
