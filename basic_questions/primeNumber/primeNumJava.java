@@ -14,21 +14,26 @@ class primeNumJava {
         // if number is divisible by any number from 2 to 9 then that number is composite 
         int temp = 0;
 
-        for (int x = 2 ; x <=10 ; x++){
-            if ( a <2 ){
+         if ( a <2){
                 System.out.println("number is not prime ");
                 return;
     
                 
             }
 
-            if (a == 2){
-                System.out.println("num is prime");
+            
+         if ( a ==2){
+                System.out.println("number is  prime ");
+                return;
+    
+                
             }
-            if (a%x==0){
-                temp ++;
 
-            }
+        for (int x = 2 ; x <=a -1 ; x++){
+                if (a%x==0){
+                    temp ++;
+                }
+
         }
 
         if (temp >0){
@@ -37,5 +42,18 @@ class primeNumJava {
             System.out.println("number is  prime ");
         }
 
+
+        System.out.println(5%10==0);
+        
+
+        // if(a <= 1){
+        //     System.out.println("number is not prime ");
+        // }else if (int z = 2 , z<=num-1){
+        //     System.out.println("number is not prime ");
+
+
+        // }else {
+        //     System.out.println("number is prime ");
+        // }
     }
 }
